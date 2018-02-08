@@ -1,0 +1,68 @@
+.fit-black-bg{
+    background-color: #1a2f31;
+}
+.fit-bordo-bg{
+    background-color: #a5131c;
+}
+.fit-red{
+    background-color: #e41e35;
+}
+.fit-red-text{
+    color: #e41e35;
+}
+.gradient{
+    background: linear-gradient(#a5131c, #e41e35)
+}
+.font-25{
+    font-size: 40px !important;
+    margin-left: -40px;
+}
+.montserrat{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.slideshow .background {
+    opacity:0;
+    visibility:hidden;
+    -webkit-transition:1s;
+    transition:1s;
+}
+.slideshow .background.shown {
+    opacity:1;
+    visibility:visible;
+}
+.slide .background.customBackground {
+     background-size: initial;
+     background-repeat: no-repeat;
+ }
+.navigation li {
+    text-align:right;
+    padding: 0 9px;
+    margin: 0 -9px 0 -24px;
+}
+
+.side.left .navigation li {
+    text-align:left;
+}
+
+.navigation li:after {
+    -webkit-transition:0.25s;
+    transition:0.25s;
+    display:inline-block;
+    height:3px;
+}
+.navigation li.selected:after {
+    width:30px;
+}
+
+
+.navigation li:before {
+    -webkit-transition:0.25s;
+    transition:0.25s;
+    opacity:0;
+}
+.navigation li:hover:before {
+    -webkit-transition:0.25s;
+    transition:0.25s;
+    opacity:1;
+    visibility:visible;
+}
