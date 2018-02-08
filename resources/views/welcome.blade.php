@@ -69,7 +69,7 @@
                     <div class="article">
                     <h1 class="ae-1 bold">Ausgezeichnete Betreuung.</h1>
                     <div class="ae-2 fix-10-12"><p class="hero">Bei uns wirst du von qualifizierten Trainern mit
-                            langjähriger Erfahrung im Fitness- und Wettkampfsport betreut.</p></div>´
+                            langjähriger Erfahrung im Fitness- und Wettkampfsport betreut.</p></div>
                     </div>
                     <div class="fix-10-12">
                         <ul class="grid later equal">
@@ -106,7 +106,7 @@
                 </div>
             </div>
         </div>
-        <div class="background"><img src="{{asset('assets/assets/img/image3.png')}}"></div>
+        <div class="background" style="background-image:url({{asset('assets/assets/img/image3.png')}})"></div>
     </section>
     <section class="slide fade kenBurns" data-name="eGym" data-title="eGym">
         <div class="content">
