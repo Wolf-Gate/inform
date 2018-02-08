@@ -1338,7 +1338,7 @@ form.center input, form.center textarea {
 }
 .container .wrap:not(.noSpaces), .container .wrap.spaceWrap,
 .container .wrap .spaceWrap {
-  padding: calc(5.56% + 50px) calc(8% + 15px);
+  padding: calc(3.56% + 30px) calc(5% + 5px);
 }
 .container .wrap .overflowHidden {
   overflow: hidden;
