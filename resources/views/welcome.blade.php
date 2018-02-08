@@ -66,9 +66,11 @@
         <div class="content">
             <div class="container">
                 <div class="wrap">
+                    <div class="article">
                     <h1 class="ae-1 bold">Ausgezeichnete Betreuung.</h1>
                     <div class="ae-2 fix-10-12"><p class="hero">Bei uns wirst du von qualifizierten Trainern mit
-                            langjähriger Erfahrung im Fitness- und Wettkampfsport betreut.</p></div>
+                            langjähriger Erfahrung im Fitness- und Wettkampfsport betreut.</p></div>´
+                    </div>
                     <div class="fix-10-12">
                         <ul class="grid later equal">
                             <li class="col-6-12 margin-top-3">
@@ -109,7 +111,7 @@
     <section class="slide fade kenBurns" data-name="eGym" data-title="eGym">
         <div class="content">
             <div class="container">
-                <div class="wrap">
+                <div class="wrap article">
 
                     <div class="fix-10-12">
                         <h1 class="ae-1 big montserrat bold fromLeft">eGym - Neu bei uns!</h1>
@@ -151,7 +153,7 @@
     <section class="slide gradient" ata-name="kontakt" data-title="Kontakt">
         <div class="content">
             <div class="container">
-                <div class="wrap">
+                <div class="wrap article">
 
                     <h1 class="ae-1 bold montserrat">Und wann kommst du InForm...</h1>
                     <div class="ae-2 fix-12-12"><p class="hero bold">Du hast Fragen zu einer Mitgliedschaft in unserem
