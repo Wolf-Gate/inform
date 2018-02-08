@@ -149,14 +149,6 @@
                                                               xlink:href="#arrow-down"></use></svg></span></div>
     </div>
 </nav>
-<div class="loadingIcon">
-    <svg class="loading-icon" id="loading-circle" viewBox="0 0 18 18">
-        <circle class="circle" opacity=".1" stroke="#fff" stroke-width="2" stroke-miterlimit="10" cx="9" cy="9" r="8"
-                fill="none"></circle>
-        <circle class="dash" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,100"
-                cx="9" cy="9" r="8" fill="none"></circle>
-    </svg>
-</div>
 <script src="{{ asset('assets/js/jquery.js') }}" type="text/javascript" name="plugins"></script>
 <script src="{{ asset('assets/js/slides.js') }}" type="text/javascript" name="plugins"></script>
 <script src="{{ asset('assets/js/plugins.js') }}" type="text/javascript" name="plugins"></script>
