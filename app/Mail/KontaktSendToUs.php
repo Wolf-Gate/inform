@@ -30,7 +30,7 @@ class KontaktSendToUs extends Mailable
      */
     public function build()
     {
-        return $this->from($this->request->email)->to('maggieandpatric@icloud.com')->subject("Neue Anfrage InForm")->markdown('emails.kontakt_send_to_us')->with([
+        return $this->from($this->request->email)->to('inform@inform-crailsheim.de')->subject("Neue Anfrage InForm")->markdown('emails.kontakt_send_to_us')->with([
             'vorname' => $this->request->vorname,
             'nachname' => $this->request->nachname,
             'email' => $this->request->email,
