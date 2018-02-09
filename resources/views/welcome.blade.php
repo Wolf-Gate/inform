@@ -1,7 +1,7 @@
 @component('layouts.master')
     @slot('headerBlock')
         <link rel="canonical" href="">
-        <title>inform</title>
+        <title>InForm Fitness Studio Crailsheim</title>
         <meta name="description"
               content="">
         <meta name="keywords" content="">
@@ -25,11 +25,11 @@
                 </div>
             </div>
         </div>
-        <div class="background customBackground ae-5 fromTopLeft"
+        <div class="background customBackground ae-5 hideForPhone hideForPhablet fromTopLeft"
              style="background-image:url({{ asset('assets/assets/svg/fly-gym-1.png') }}); background-position: top left;"></div>
         <div class="background customBackground ae-6 hideForPhone hideForTablet hideForPhablet fromTopRight"
              style="background-image:url({{ asset('assets/assets/svg/fly-gym-2.png') }}); background-position: top right;"></div>
-        <div class="background customBackground ae-7 fromBottomRight"
+        <div class="background customBackground ae-7 hideForPhone hideForPhablet fromBottomRight"
              style="background-image:url({{ asset('assets/assets/svg/fly-gym-4.png') }}); background-position: bottom right;"></div>
         <div class="background customBackground ae-8 hideForPhone hideForTablet hideForPhablet fromBottomLeft"
              style="background-image:url({{ asset('assets/assets/svg/fly-gym-3.png') }}); background-position: bottom left;"></div>
@@ -46,11 +46,11 @@
                                 1000 m², Kurzhanteln bis 60 kg und einer vielseitigen Auswahl an Cardiogeräten. Und all
                                 das 7 Tage die Woche.</p>
                         </div>
-                        <a href="#" class="button fit-red ae-3">Unser Studio</a>
-                        <a href="#" class="button white ae-4">Preise</a>
+                        <a href="{{ route('studio') }}" class="button fit-red ae-3">Unser Studio</a>
+                        <a href="{{ route('preise') }}" class="button white ae-4">Preise</a>
                         <div class="ae-8 fromRight">
                             <p class="small">Finde heraus, ob inform zu dir passt. <a class="bold fit-red-text"
-                                                                                      href="#">Jetzt
+                                                                                      href="{{ route('kontakt') }}">Jetzt
                                     loslegen.</a></p>
                         </div>
                     </div>
@@ -67,9 +67,9 @@
             <div class="container">
                 <div class="wrap">
                     <div class="article">
-                    <h1 class="ae-1 bold">Ausgezeichnete Betreuung.</h1>
-                    <div class="ae-2 fix-10-12"><p class="hero">Bei uns wirst du von qualifizierten Trainern mit
-                            langjähriger Erfahrung im Fitness- und Wettkampfsport betreut.</p></div>
+                        <h1 class="ae-1 bold">Ausgezeichnete Betreuung.</h1>
+                        <div class="ae-2 fix-10-12"><p class="hero">Bei uns wirst du von qualifizierten Trainern mit
+                                langjähriger Erfahrung im Fitness- und Wettkampfsport betreut.</p></div>
                     </div>
                     <div class="fix-10-12">
                         <ul class="grid later equal">
@@ -83,7 +83,8 @@
                                         <h2 class="ae-5 montserrat bold">Trainer Team</h2>
                                         <div class="ae-6"><p class="small equalElement">Wir bietet neuen Mitgliedern
                                                 eine individuelle Beratung an.</p></div>
-                                        <div class="button fit-red montserrat wide crop ae-7">Mehr erfahren</div>
+                                        <a href="{{ route('trainer') }}"
+                                           class="button fit-red montserrat wide crop ae-7">Mehr erfahren</a>
                                     </div>
                                 </div>
                             </li>
@@ -97,7 +98,8 @@
                                         <h2 class="bold montserrat ae-6">Kursangebote</h2>
                                         <div class="ae-7"><p class="small equalElement">Sie finden unsere aktuellen
                                                 Kursangebote ab Januar 2018 hier.</p></div>
-                                        <div class="button fit-red montserrat wide crop ae-8">Mehr erfahren</div>
+                                        <a href="{{ route('kursplan') }}"
+                                           class="button fit-red montserrat wide crop ae-8">Mehr erfahren</a>
                                     </div>
                                 </div>
                             </li>
@@ -150,42 +152,57 @@
             </div>
         </div>
     </div>
-    <section class="slide gradient" ata-name="kontakt" data-title="Kontakt">
+    <section class="slide gradient" data-name="kontakt" data-title="Kontakt">
         <div class="content">
             <div class="container">
-                <div class="wrap article">
+                <div class="wrap">
 
-                    <h1 class="ae-1 bold montserrat">Und wann kommst du InForm...</h1>
-                    <div class="ae-2 fix-12-12"><p class="hero bold">Du hast Fragen zu einer Mitgliedschaft in unserem
-                            Studio, Tarifen oder einem kostenfreien Probetraining? Fülle einfach unser Kontaktformular
-                            aus und schon werden wir uns mit dir in Verbindung setzen. Du kannst uns auch gerne direkt
-                            im Studio anrufen oder besuchen kommen.</p></div>
-                    <div class="margin-top-6 fix-5-12">
-                        <div class="pad shadow selected ae-3">
-                            <form action="ajax-email.php" id="contact-form" method="post" class="wide center"
-                                  data-ajax-form="true">
-                                <div class="label ae-4 cropTop"><label class="cropTop opacity-5" for="name55">Ihr
-                                        Name</label></div>
-                                <input class="stroke ae-5 wide" id="name55" type="name" name="name" placeholder="Name"
-                                       required/>
-                                <div class="label ae-6"><label class="opacity-5" for="email55">Email address</label>
-                                </div>
-                                <input class="stroke ae-7 wide" id="email55" type="email" name="email"
-                                       placeholder="Email" required/>
-                                <div class="label ae-6"><label class="opacity-5" for="email55">Telefonnummer</label>
-                                </div>
-                                <input class="stroke ae-7 wide" id="email55" type="text" name="email"
-                                       placeholder="Telefonnummer" required/>
-                                <div class="label ae-8"><label class="opacity-5" for="message55">Nachricht</label></div>
-                                <textarea class="left ae-9" id="message55" type="text" name="message"
-                                          placeholder="Message" required></textarea>
-                                <input class="button wide fit-red montserrat ae-10 margin-top-2 cropBottom"
-                                       type="submit" name="submit" value="Jetzt loslegen." data-success-text="Done!"
-                                       data-success-class="green"/>
-                            </form>
-                        </div>
-
-                    </div>
+                    <ul class="flex padding-top-5">
+                        <li class="col-6-12 ae-4 article left">
+                            <h2 class="bold montserrat">Öffnungszeiten:</h2>
+                            <p class="hero">
+                                <strong>Montag bis Donnerstag:</strong> 7.00 Uhr bis 23.00 Uhr<br/>
+                                <strong>Freitag:</strong> 9.00 Uhr bis 23.00 Uhr<br/>
+                                <strong>Samstag & Sonntag:</strong> 10.00 Uhr bis 17.00 Uhr<br/>
+                                <strong>Feiertag:</strong> 10.00 Uhr bis 14.00 Uhr
+                            </p>
+                            <h2 class="bold montserrat">Kontakt:</h2>
+                            <p class="hero">
+                                <strong>InForm: Fitness - & Freizeitanlage</strong><br/>
+                                <strong>Wittauer Str. 1</strong><br/>
+                                <strong>74564 Crailsheim</strong><br/>
+                                <strong>Telefon:</strong> 07951 4713830
+                            </p>
+                        </li>
+                        <li class="col-6-12 padding-top-10">
+                            <div class="pad-2 ae-5 shadow fix-7-12 selected">
+                                <form role="form" method="POST" action="{{ route('kontakt_sended') }}"
+                                      class="wide left">
+                                    {{ csrf_field() }}
+                                    <h2 class="bold center">Und wann kommst du InForm...</h2>
+                                    <input class="stroke pair" id="vorname" type="text" name="vorname"
+                                           placeholder="Vorname" required/>
+                                    <input class="stroke pair" id="nachname" type="text" name="nachname"
+                                           placeholder="Nachname" required/>
+                                    <input class="stroke wide" id="email" type="email" name="email"
+                                           placeholder="Ihre E-Mail" required/>
+                                    <input class="stroke wide" id="telefonnummer" type="text" name="telefonnummer"
+                                           placeholder="Ihre Tel-Nr." required/>
+                                    <select class="stroke  wide" id="anfrage" name="anfrage" required="">
+                                        <option value="Anfrage auswählen">Bitte Anfrage auswählen</option>
+                                        <option value="Probetraining">Probetraining</option>
+                                        <option value="Personal Training">Personal Training</option>
+                                        <option value="Firmen Fitness">Firmen Fitness</option>
+                                        <option value="Andere">Andere</option>
+                                    </select>
+                                    <button type="submit" class="button wide fit-red margin-top-1">Jetzt loslegen
+                                    </button>
+                                    <p class="micro bold center cropBottom margin-top-1">schnell - kostenlos -
+                                        unverbindlich</p>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
 
                 </div>
             </div>

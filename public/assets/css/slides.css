@@ -1563,6 +1563,13 @@ html:not(.mobile) .slide.video .background[style] {
   background: #fff;
   overflow: hidden;
 }
+.pad-2 {
+  border-radius: 6px;
+  padding: 6%;
+  color: #303030;
+  background: #fff;
+  overflow: hidden;
+}
 .pad.shadow {
   box-shadow: 0 35px 54px rgba(0, 0, 0, 0.3), 0 5px 20px rgba(0, 0, 0, 0.07), 0 0px 1px rgba(0, 0, 0, 0.12);
 }
