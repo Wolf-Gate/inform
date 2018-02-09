@@ -24,9 +24,6 @@
                 </div>
             </div>
         </div>
-        <div class="background">
-            <iframe class="iframeBackground" frameBorder="0" src="https://www.google.com/maps/embed/v1/search?q=49.1220576231%2C10.0935754536&center=49.1227436906%2C10.0933557507&zoom=17&key=AIzaSyASzqnCrYBWXhFtdlXXBg_KCLxQTa1I5Y4&maptype=satellite"></iframe>
-        </div>
     </section>
     <div class="popup" data-popup-id="maps">
         <div class="close opaque"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
