@@ -1,15 +1,14 @@
 @component('layouts.master')
     @slot('headerBlock')
-        <link rel="canonical" href="">
-        <title>InForm Fitness Studio Crailsheim</title>
-        <meta name="description"
-              content="">
-        <meta name="keywords" content="">
-        <meta name="og:site_name" content="">
+        <link rel="canonical" href="http://www.inform-crailsheim.de/">
+        <meta name="og:url" content="http://www.inform-crailsheim.de/">
+        <title>InForm - Fitness- & Freizeitanlage</title>
         <meta name="og:title"
-              content="">
-        <meta name="og:type" content="website">
-        <meta name="og:url" content="">
+              content="InForm - Fitness- & Freizeitanlage">
+        <meta name="description"
+              content="Trainiere auf 1200m², von 07:00 - 23:00 Uhr, mit qualifizierten Trainern, abwechlungsreichem Kursprogramm und großem Gerätepark auf 2 Stockwerken!">
+        <meta name="og:description"
+              content="Trainiere auf 1200m², von 07:00 - 23:00 Uhr, mit qualifizierten Trainern, abwechlungsreichem Kursprogramm und großem Gerätepark auf 2 Stockwerken!">
     @endslot
     <section class="slide gradient" data-name="start" data-title="Startseite">
         <div class="content">

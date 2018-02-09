@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Material+Icons" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600" rel="stylesheet">
     <meta name="og:type" content="website">
+    <meta name="og:site_name" content="InForm Crailsheim - Dein größtes Fitnessstudio in Crailsheim und Umgebung.">
     <link href="{{ asset('assets/css/slides.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
     {{ $headerBlock or '' }}

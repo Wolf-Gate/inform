@@ -3,10 +3,10 @@
         <link rel="canonical" href="http://www.inform-crailsheim.de/fitness-studio-kontakt">
         <meta name="og:url" content="http://www.inform-crailsheim.de/fitness-studio-kontakt">
         <title>KONTAKT - Dein größtes Fitnessstudio in Crailsheim und Umgebung.</title>
+        <meta name="og:title" content="KONTAKT - Dein größtes Fitnessstudio in Crailsheim und Umgebung.">
         <meta name="description"
               content="Du hast Fragen zu einer Mitgliedschaft in unserem Studio, Tarifen oder einem kostenfreien Probetraining? Fülle einfach unser Kontaktformular aus und schon werden wir uns mit dir in Verbindung setzen. Du kannst uns auch gerne direkt im Studio anrufen oder besuchen kommen.">
-        <meta name="og:site_name" content="KONTAKT - Dein größtes Fitnessstudio in Crailsheim und Umgebung.">
-        <meta name="og:title"
+        <meta name="og:description"
               content="Du hast Fragen zu einer Mitgliedschaft in unserem Studio, Tarifen oder einem kostenfreien Probetraining? Fülle einfach unser Kontaktformular aus und schon werden wir uns mit dir in Verbindung setzen. Du kannst uns auch gerne direkt im Studio anrufen oder besuchen kommen.">
     @endslot
     <section class="slide gradient" data-name="start" data-title="Startseite">
@@ -14,11 +14,14 @@
             <div class="container">
                 <div class="wrap">
 
-                    <div class="fix-6-12 fromBlur">
-                        <img class="ae-2" src="{{ asset('assets/assets/svg/logo.png') }}">
+                    <div class="fix-6-12 fromBlur ae-1">
+                        <img src="{{ asset('assets/assets/svg/logo.png') }}">
                     </div>
-                        <a href="#kontakt" class="button margin-top-5 rounded big white ae-4">Kontakt aufnehmen</a>
-                        <a class="button margin-top-5 rounded big black ae-5 popupTrigger" data-popup-id="maps">Google Maps</a>
+                    <div class="fix-10-12 ae-2 margin-top-2">
+                        <p class="hero bold">Du hast Fragen zu einer Mitgliedschaft in unserem Studio, Tarifen oder einem kostenfreien Probetraining? Fülle einfach unser Kontaktformular aus und schon werden wir uns mit dir in Verbindung setzen. Du kannst uns auch gerne direkt im Studio anrufen oder besuchen kommen.</p>
+                    </div>
+                        <a href="#kontakt" class="button margin-top-2 rounded big white ae-4">Kontakt aufnehmen</a>
+                        <a class="button margin-top-2 rounded big black ae-5 popupTrigger" data-popup-id="maps">Google Maps</a>
 
 
                 </div>
