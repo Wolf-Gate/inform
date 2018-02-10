@@ -2,24 +2,26 @@
     @slot('headerBlock')
         <link rel="canonical" href="http://www.inform-crailsheim.de/fitness-kursplan-crailsheim">
         <meta name="og:url" content="http://www.inform-crailsheim.de/fitness-kursplan-crailsheim">
-        <title>Gerade in Überarbeitung</title>
+        <title>Kurspläne - Dein größtes Fitnessstudio in Crailsheim und Umgebung.</title>
         <meta name="og:title"
-              content="Gerade in Überarbeitung">
+              content="Kurspläne - Dein größtes Fitnessstudio in Crailsheim und Umgebung.">
         <meta name="description"
-              content="Gerade in Überarbeitung">
+              content="InForm Kursplan ab Januar 2018 - Dein größtes Fitnessstudio in Crailsheim und Umgebung.">
         <meta name="og:description"
-              content="Gerade in Überarbeitung">
+              content="InFrom Kursplan ab Januar 2018 - Dein größtes Fitnessstudio in Crailsheim und Umgebung.">
     @endslot
     <section class="slide gradient" data-name="start" data-title="Startseite">
         <div class="content">
             <div class="container">
                 <div class="wrap">
 
-                    <div class="fix-6-12 fromBlur ae-1">
-                        <img src="{{ asset('assets/assets/svg/logo.png') }}">
-                    </div>
-                    <div class="fix-10-12 ae-2 margin-top-2">
-                        <p class="hero bold">Diese Seite ist gerade in Überarbeitung!</p>
+                        <h1 class="ae-1 big bold montserrat">Unser Kursplan ab Januar 2018</h1>
+                    <div class="fix-7-12">
+                        <div class="pad shadow left ae-3 pad-59">
+                            <div class=" ae-3">
+                                <img  class="wide rounded" src="{{ asset('assets/assets/img/kursplan.jpg') }}">
+                            </div>
+                        </div>
                     </div>
                     <a href="#kontakt" class="button margin-top-2 rounded big white ae-4">Kontakt aufnehmen</a>
                 </div>

@@ -89,8 +89,6 @@
         </div>
         <div class="background" style="background-image:url({{asset('assets/assets/img/image3.png')}})"></div>
     </section>
-
-    <!-- Slide #69 -->
     <section class="slide fade scenic slideshow" data-name="Trainerqualifikationen" data-title="Trainerqualifikationen">
         <div class="content">
             <div class="container">
@@ -170,8 +168,6 @@
         <div class="background" style="background-image:url({{asset('assets/assets/img/slide-2.jpg')}})"></div>
         <div class="background" style="background-image:url({{asset('assets/assets/img/slide-3.jpg')}})"></div>
     </section>
-
-    <!-- Popup Gallery -->
     <div class="popup animated" data-popup-id="69">
         <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
         <div class="content">

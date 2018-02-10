@@ -2,84 +2,36 @@
     @slot('headerBlock')
         <link rel="canonical" href="http://www.inform-crailsheim.de/fitness-studio-datenschutz">
         <meta name="og:url" content="http://www.inform-crailsheim.de/fitness-studio-datenschutz">
-        <title>Gerade in Überarbeitung</title>
+        <title>Datenschutz - Dein größtes Fitnessstudio in Crailsheim und Umgebung.</title>
         <meta name="og:title"
-              content="Gerade in Überarbeitung">
+              content="Datenschutz - Dein größtes Fitnessstudio in Crailsheim und Umgebung.">
         <meta name="description"
-              content="Gerade in Überarbeitung">
+              content="Trainiere auf 1200m², von 07:00 - 23:00 Uhr, mit qualifizierten Trainern, abwechlungsreichem Kursprogramm und großem Gerätepark auf 2 Stockwerken!">
         <meta name="og:description"
-              content="Gerade in Überarbeitung">
+              content="Trainiere auf 1200m², von 07:00 - 23:00 Uhr, mit qualifizierten Trainern, abwechlungsreichem Kursprogramm und großem Gerätepark auf 2 Stockwerken!">
     @endslot
     <section class="slide gradient" data-name="start" data-title="Startseite">
         <div class="content">
             <div class="container">
                 <div class="wrap">
+                    <div class="fix-9-12">
+                        <div class="pad shadow article left ae-3 pad-59">
+                            <div class=" ae-3">
+                                <h3 class="uppercase small">Datenschutzerklärung</h3>
 
-                    <div class="fix-6-12 fromBlur ae-1">
-                        <img src="{{ asset('assets/assets/svg/logo.png') }}">
-                    </div>
-                    <div class="fix-10-12 ae-2 margin-top-2">
-                        <p class="hero bold">Diese Seite ist gerade in Überarbeitung!</p>
-                    </div>
-                    <a href="#kontakt" class="button margin-top-2 rounded big white ae-4">Kontakt aufnehmen</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="slide gradient" data-name="kontakt" data-title="Kontakt">
-        <div class="content">
-            <div class="container">
-                <div class="wrap">
+                                <p>Google Analytics Erg&auml;nzung<br />
+                                    Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (&#8222;Google&ldquo;). Google Analytics verwendet sog. &#8222;Cookies&ldquo;, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie erm&ouml;glichen. Die durch den Cookie erzeugten Informationen &uuml;ber Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA &uuml;bertragen und dort gespeichert. Im Falle der Aktivierung der IP-Anonymisierung auf dieser Webseite, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europ&auml;ischen Union oder in anderen Vertragsstaaten des Abkommens &uuml;ber den Europ&auml;ischen Wirtschaftsraum zuvor gek&uuml;rzt. Nur in Ausnahmef&auml;llen wird die volle IP-Adresse an einen Server von Google in den USA &uuml;bertragen und dort gek&uuml;rzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports &uuml;ber die Websiteaktivit&auml;ten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegen&uuml;ber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser &uuml;bermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengef&uuml;hrt. Sie k&ouml;nnen die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht s&auml;mtliche Funktionen dieser Website vollumf&auml;nglich werden nutzen k&ouml;nnen. Sie k&ouml;nnen dar&uuml;ber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem Sie das unter dem folgenden Link verf&uuml;gbare Browser-Plugin herunterladen und installieren: http://tools.google.com/dlpage/gaoptout</p>
 
-                    <ul class="flex padding-top-5">
-                        <li class="col-6-12 ae-4 article left">
-                            <h2 class="bold montserrat">Öffnungszeiten:</h2>
-                            <p class="hero">
-                                <strong>Montag bis Donnerstag:</strong> 7.00 Uhr bis 23.00 Uhr<br/>
-                                <strong>Freitag:</strong> 9.00 Uhr bis 23.00 Uhr<br/>
-                                <strong>Samstag & Sonntag:</strong> 10.00 Uhr bis 17.00 Uhr<br/>
-                                <strong>Feiertag:</strong> 10.00 Uhr bis 14.00 Uhr
-                            </p>
-                            <h2 class="bold montserrat">Kontakt:</h2>
-                            <p class="hero">
-                                <strong>InForm: Fitness - & Freizeitanlage</strong><br/>
-                                <strong>Wittauer Str. 1</strong><br/>
-                                <strong>74564 Crailsheim</strong><br/>
-                                <strong>Telefon:</strong> 07951 4713830
-                            </p>
-                        </li>
-                        <li class="col-6-12 padding-top-10">
-                            <div class="pad-2 ae-5 shadow fix-7-12 selected">
-                                <form role="form" method="POST" action="{{ route('kontakt_sended') }}"
-                                      class="wide left">
-                                    {{ csrf_field() }}
-                                    <h2 class="bold center">Und wann kommst du InForm...</h2>
-                                    <input class="stroke pair" id="vorname" type="text" name="vorname"
-                                           placeholder="Vorname" required/>
-                                    <input class="stroke pair" id="nachname" type="text" name="nachname"
-                                           placeholder="Nachname" required/>
-                                    <input class="stroke wide" id="email" type="email" name="email"
-                                           placeholder="Ihre E-Mail" required/>
-                                    <input class="stroke wide" id="telefonnummer" type="text" name="telefonnummer"
-                                           placeholder="Ihre Tel-Nr." required/>
-                                    <select class="stroke  wide" id="anfrage" name="anfrage" required="">
-                                        <option value="Anfrage auswählen">Bitte Anfrage auswählen</option>
-                                        <option value="Probetraining">Probetraining</option>
-                                        <option value="Personal Training">Personal Training</option>
-                                        <option value="Firmen Fitness">Firmen Fitness</option>
-                                        <option value="Andere">Andere</option>
-                                    </select>
-                                    <button type="submit" class="button wide fit-red margin-top-1">Jetzt loslegen
-                                    </button>
-                                    <p class="micro bold center cropBottom margin-top-1">schnell - kostenlos -
-                                        unverbindlich</p>
-                                </form>
+                                <p>Sie k&ouml;nnen die Erfassung durch Google Analytics verhindern, indem Sie auf folgenden Link klicken.<br />
+                                    Es wird ein Opt-Out-Cookie gesetzt, der die zuk&uuml;nftige Erfassung Ihrer Daten beim Besuch dieser Website verhindert</p>
+
+                                <p>N&auml;here Informationen zu Nutzungsbedingungen und Datenschutz finden Sie unter den Google Analytics Bedingungen bzw. unter der Google Analytics &Uuml;bersicht. Wir weisen Sie darauf hin, dass auf dieser Webseite Google Analytics um den Code &quot;gat._anonymizeIp();&quot; erweitert wurde, um eine anonymisierte Erfassung von IP-Adressen (sog. IP-Masking) zu gew&auml;hrleisten.</p>
                             </div>
-                        </li>
-                    </ul>
-
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
 @endcomponent

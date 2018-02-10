@@ -2,30 +2,50 @@
     @slot('headerBlock')
         <link rel="canonical" href="http://www.inform-crailsheim.de/fitness-preise-crailsheim">
         <meta name="og:url" content="http://www.inform-crailsheim.de/fitness-preise-crailsheim">
-        <title>Gerade in Überarbeitung</title>
+        <title>Preise InForm - Dein größtes Fitnessstudio in Crailsheim und Umgebung.</title>
         <meta name="og:title"
-              content="Gerade in Überarbeitung">
+              content="Preise InForm - Dein größtes Fitnessstudio in Crailsheim und Umgebung">
         <meta name="description"
-              content="Gerade in Überarbeitung">
+              content="InForm Preise und Pakete ab Januar 2018 - Dein größtes Fitnessstudio in Crailsheim und Umgebung.">
         <meta name="og:description"
-              content="Gerade in Überarbeitung">
+              content="InForm Preise und Pakete ab Januar 2018 - Dein größtes Fitnessstudio in Crailsheim und Umgebung.">
     @endslot
     <section class="slide gradient" data-name="start" data-title="Startseite">
         <div class="content">
             <div class="container">
                 <div class="wrap">
 
-                    <div class="fix-6-12 fromBlur ae-1">
-                        <img src="{{ asset('assets/assets/svg/logo.png') }}">
+                    <h1 class="ae-1 bold montserrat big">Unsere aktuellen Preise</h1>
+                    <div class="fix-10-12">
+                        <ul class="grid later equal">
+                            <li class="col-6-12">
+                                <div class="fix-5-12 margin-bottom-3">
+                                    <div class="pad shadow ae-3">
+                                        <div class="price sourceSans ae-4"><span class="currency sourceSans">€</span>22</div>
+                                        <h3 class="big ae-5">Paket</h3>
+                                        <div class="ae-6"><p class="small equalElement">Beschreibung</p></div>
+                                        <a href="#kontakt" class="button fit-red crop wide ae-7">Kontakt aufnehmen</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-6-12">
+                                <div class="fix-5-12">
+                                    <div class="pad shadow ae-4">
+                                        <div class="price sourceSans ae-5"><span class="currency sourceSans">€</span>69</div>
+                                        <h3 class="big ae-6">Paket</h3>
+                                        <div class="ae-7"><p class="small equalElement">Beschreibung</p></div>
+                                        <a href="#kontakt" class="button fit-red crop wide ae-8">Kontakt aufnehmen</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="fix-10-12 ae-2 margin-top-2">
-                        <p class="hero bold">Diese Seite ist gerade in Überarbeitung!</p>
-                    </div>
-                    <a href="#kontakt" class="button margin-top-2 rounded big white ae-4">Kontakt aufnehmen</a>
+
                 </div>
             </div>
         </div>
     </section>
+
     <section class="slide gradient" data-name="kontakt" data-title="Kontakt">
         <div class="content">
             <div class="container">
