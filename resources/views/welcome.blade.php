@@ -61,6 +61,47 @@
         <div class="background" style="background-image:url({{asset('assets/assets/img/slide-2.jpg')}})"></div>
         <div class="background" style="background-image:url({{asset('assets/assets/img/slide-3.jpg')}})"></div>
     </section>
+    <section class="slide fade kenBurns zoomout" data-name="rundgang" data-title="Rundgang Crailsheim InForm">
+        <div class="content">
+            <div class="container">
+                <div class="wrap">
+
+                    <div class="fix-4-12">
+                        <div class="embedContainer popupTrigger shadow" data-popup-id="maps" style="padding-bottom:70%">
+                            <iframe class="scale disableClick" frameborder="0" style="border:0"
+                                    src="https://www.google.com/maps/embed?pb=!4v1518606295969!6m8!1m7!1sI8b6EXuyP_wAAAQq3LChPQ!2m2!1d49.12202538049224!2d10.09339216866431!3f322.66!4f-1.1299999999999955!5f0.7794804030004345"
+                                    allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="background">
+            <iframe class="iframeBackground" frameBorder="0"
+                    src="https://www.google.com/maps/embed?pb=!4v1518606295969!6m8!1m7!1sI8b6EXuyP_wAAAQq3LChPQ!2m2!1d49.12202538049224!2d10.09339216866431!3f322.66!4f-1.1299999999999955!5f0.7794804030004345"></iframe>
+        </div>
+    </section>
+    <div class="popup" data-popup-id="maps">
+        <div class="close opaque">
+            <svg>
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
+            </svg>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="wrap">
+
+                    <div class="embedVideo popupContent">
+                        <iframe frameborder="0" style="border:0"
+                                src="https://www.google.com/maps/embed?pb=!4v1518606295969!6m8!1m7!1sI8b6EXuyP_wAAAQq3LChPQ!2m2!1d49.12202538049224!2d10.09339216866431!3f322.66!4f-1.1299999999999955!5f0.7794804030004345"
+                                allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="slide fade-5 gradient" data-name="trainer" data-title="Trainer & Kurse">
         <div class="content">
             <div class="container">
