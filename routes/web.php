@@ -20,6 +20,7 @@ Route::get('/fitness-kursplan-crailsheim', ['as' => 'kursplan', 'uses' => 'HomeC
 Route::get('/fitness-probetraining-crailsheim', ['as' => 'probetraining', 'uses' => 'HomeController@preise']);
 
 Route::get('/fitness-rundgang-crailsheim', ['as' => 'rundgang', 'uses' => 'HomeController@rundgang']);
+Route::get('/fitness-aktion-crailsheim', ['as' => 'aktion', 'uses' => 'HomeController@aktion']);
 Route::get('/inform-body-shop', ['as' => 'shop', 'uses' => 'HomeController@shop']);
 Route::get('/kontakt-conversion', ['as' => 'conversion', 'uses' => 'HomeController@conversion']);
 Route::get('/fitness-personal-training-crailsheim', ['as' => 'personal', 'uses' => 'HomeController@personal']);

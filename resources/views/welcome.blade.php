@@ -24,11 +24,11 @@
                 </div>
             </div>
         </div>
-        <div class="background customBackground ae-5 hideForPhone hideForPhablet fromTopLeft"
+        <div class="background customBackground ae-5 hideForPhone hideForTablet hideForPhablet fromTopLeft"
              style="background-image:url({{ asset('assets/assets/svg/fly-gym-1.png') }}); background-position: top left;"></div>
-        <div class="background customBackground ae-6 hideForPhone hideForTablet hideForPhablet fromTopRight"
+        <div class="background customBackground ae-6 fromTopRight"
              style="background-image:url({{ asset('assets/assets/svg/fly-gym-2.png') }}); background-position: top right;"></div>
-        <div class="background customBackground ae-7 hideForPhone hideForPhablet fromBottomRight"
+        <div class="background customBackground ae-7 hideForPhone hideForTablet hideForPhablet fromBottomRight"
              style="background-image:url({{ asset('assets/assets/svg/fly-gym-4.png') }}); background-position: bottom right;"></div>
         <div class="background customBackground ae-8 hideForPhone hideForTablet hideForPhablet fromBottomLeft"
              style="background-image:url({{ asset('assets/assets/svg/fly-gym-3.png') }}); background-position: bottom left;"></div>

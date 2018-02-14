@@ -71,6 +71,10 @@ class HomeController extends Controller
     {
         return view('home.impressum');
     }
+    public function aktion()
+    {
+        return view('home.aktion');
+    }
     public function datenschutz()
     {
         return view('home.datenschutz');
