@@ -129,7 +129,7 @@
             <li class="ae-3"><a href="{{ route('trainer') }}">Trainer Team</a></li>
             <li class="ae-4"><a href="{{ route('kursplan') }}">Kurse & Kursplan</a></li>
             <li class="ae-5"><a href="{{ route('probetraining') }}">Probetraining</a></li>
-            <li class="ae-6"><a href="{{ route('aktion') }}">Unsere Aktionen</a></li>
+            <li class="ae-6"><a href="{{ route('aktion') }}">Aktionen</a></li>
         </ul>
         <ul class="subMenu">
             <li class="ae-6"><a href="{{ route('rundgang') }}">Studio Rundgang</a></li>

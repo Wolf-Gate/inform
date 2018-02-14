@@ -14,10 +14,8 @@
         <div class="content">
             <div class="container">
                 <div class="wrap">
-
-                    <h1 class="ae-1 bold montserrat margin-bottom-2">Unsere Aktion entdecken</h1>
                     <div class="fix-8-12 ae-2">
-
+                        <img src="{{ asset('assets/assets/img/aktion.jpg') }}" class="rounded">
                     </div>
                 </div>
             </div>
