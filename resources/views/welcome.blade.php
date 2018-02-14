@@ -46,7 +46,7 @@
                                 das 7 Tage die Woche.</p>
                         </div>
                         <a href="{{ route('studio') }}" class="button fit-red ae-3">Unser Studio</a>
-                        <a href="{{ route('preise') }}" class="button white ae-4">Preise</a>
+                        <a href="{{ route('probetraining') }}" class="button white ae-4">Probetraining</a>
                         <div class="ae-8 fromRight">
                             <p class="small">Finde heraus, ob InForm zu dir passt. <a class="bold fit-red-text"
                                                                                       href="{{ route('kontakt') }}">Jetzt
