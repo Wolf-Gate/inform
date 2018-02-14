@@ -26,7 +26,7 @@
         </div>
         <div class="background customBackground ae-5 hideForPhone hideForTablet hideForPhablet fromTopLeft"
              style="background-image:url({{ asset('assets/assets/svg/fly-gym-1.png') }}); background-position: top left;"></div>
-        <div class="background customBackground ae-6 fromTopRight"
+        <div class="background customBackground ae-6 hideForPhone hideForTablet hideForPhablet fromTopRight"
              style="background-image:url({{ asset('assets/assets/svg/fly-gym-2.png') }}); background-position: top right;"></div>
         <div class="background customBackground ae-7 hideForPhone hideForTablet hideForPhablet fromBottomRight"
              style="background-image:url({{ asset('assets/assets/svg/fly-gym-4.png') }}); background-position: bottom right;"></div>
