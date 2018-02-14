@@ -16,6 +16,15 @@
     {{ $headerBlock or '' }}
 </head>
 <body class="slides zen simplifiedMobile animated">
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1191339764326043";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
 
     <symbol id="close" viewBox="0 0 30 30"><path d="M15 0c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15zm5.7 19.3c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3s-.5-.1-.7-.3l-4.3-4.3-4.3 4.3c-.2.2-.4.3-.7.3s-.5-.1-.7-.3c-.4-.4-.4-1 0-1.4l4.3-4.3-4.3-4.3c-.4-.4-.4-1 0-1.4s1-.4 1.4 0l4.3 4.3 4.3-4.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-4.3 4.3 4.3 4.3z"/></symbol>
@@ -93,14 +102,15 @@
         <div class="left"></div>
         <div class="center">
             <ul class="menu bold">
-                <li><a href="{{ route('studio') }}">Unser Studio</a></li>
+                <li><a href="{{ route('studio') }}">Studio</a></li>
                 <li><a href="{{ route('trainer') }}">Trainer Team</a></li>
-                <li><a href="{{ route('kursplan') }}">Kursplan</a></li>
-                <li><a href="{{ route('preise') }}">Preise</a></li>
+                <li><a href="{{ route('kursplan') }}">Kurse & Kursplan</a></li>
+                <li><a href="{{ route('firmen') }}">Firmen Fitness</a></li>
             </ul>
         </div>
         <div class="right">
-            <span class="button actionButton white rounded sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span>
+            <span class="button white round"><a href="{{ route('probetraining') }}">Probetraining</a></span>
+            <span class="button actionButton white sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span>
         </div>
     </div>
     <div class="sections compact hidden">
@@ -116,8 +126,8 @@
         <ul class="mainMenu uppercase">
             <li class="ae-2"><a href="{{ route('studio') }}">Unser Studio</a></li>
             <li class="ae-3"><a href="{{ route('trainer') }}">Trainer Team</a></li>
-            <li class="ae-4"><a href="{{ route('kursplan') }}">Kursplan</a></li>
-            <li class="ae-5"><a href="{{ route('preise') }}">Preise</a></li>
+            <li class="ae-4"><a href="{{ route('kursplan') }}">Kurse & Kursplan</a></li>
+            <li class="ae-5"><a href="{{ route('probetraining') }}">Probetraining</a></li>
         </ul>
         <ul class="subMenu">
             <li class="ae-6"><a href="{{ route('rundgang') }}">Studio Rundgang</a></li>
@@ -126,9 +136,9 @@
             <li class="ae-7"><a href="{{ route('firmen') }}">Firmen Fitness</a></li>
             <li class="ae-7"><a href="{{ route('kontakt') }}">Kontakt</a></li>
         </ul>
-        <ul class="social ae-8">
-            <li><a href="https://www.facebook.com/Fitnessstudio-InForm-202088929814490/"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
-        </ul>
+        <div class="margin-bottom-3 ae-8">
+                <div class="fb-page" data-href="https://www.facebook.com/Fitnessstudio-InForm-202088929814490/" data-width="245" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Fitnessstudio-InForm-202088929814490/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Fitnessstudio-InForm-202088929814490/">InForm Fitness Studio</a></blockquote></div>
+        </div>
         <ul class="subMenu ae-9">
             <li><a href="{{ route('impressum') }}">Impressum</a></li>
             <li><a href="{{ route('datenschutz') }}">Datenschutz</a></li>
@@ -140,7 +150,77 @@
     </div>
 </nav>
 {{ $slot }}
+<section class="slide fade zoomout kenBurns" data-name="kontakt" data-title="Kontakt">
+    <div class="content">
+        <div class="container">
+            <div class="wrap">
 
+                <ul class="flex padding-top-5">
+                    <li class="col-6-12 ae-4 article left">
+                        <h3 class="bold montserrat">Öffnungszeiten:</h3>
+                        <p class="bold">
+                            <strong>Montag bis Donnerstag:</strong> 7.00 Uhr bis 23.00 Uhr<br/>
+                            <strong>Freitag:</strong> 9.00 Uhr bis 23.00 Uhr<br/>
+                            <strong>Samstag & Sonntag:</strong> 10.00 Uhr bis 17.00 Uhr<br/>
+                            <strong>Feiertag:</strong> 10.00 Uhr bis 14.00 Uhr
+                        </p>
+                        <h3 class="bold montserrat">Kontakt:</h3>
+                        <p class="bold">
+                            <strong>InForm: Fitness - & Freizeitanlage</strong><br/>
+                            <strong>Wittauer Str. 1</strong><br/>
+                            <strong>74564 Crailsheim</strong><br/>
+                            <strong>Telefon:</strong> 07951 4713830
+                        </p>
+
+                        <div class="fb-page"
+                             data-href="https://www.facebook.com/Fitnessstudio-InForm-202088929814490/"
+                             data-width="500" data-small-header="false" data-adapt-container-width="false"
+                             data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/Fitnessstudio-InForm-202088929814490/"
+                                        class="fb-xfbml-parse-ignore"><a
+                                        href="https://www.facebook.com/Fitnessstudio-InForm-202088929814490/">InForm
+                                    Fitness Studio</a></blockquote>
+                        </div>
+
+                    </li>
+                    <li class="col-6-12  padding-top-10 ">
+                        <div class="pad-2 ae-5 shadow fix-7-12 selected">
+                            <form role="form" method="POST" action="{{ route('kontakt_sended') }}"
+                                  class="wide left">
+                                {{ csrf_field() }}
+                                <h2 class="bold center">Und wann kommst du InForm...</h2>
+                                <input class="stroke pair" id="vorname" type="text" name="vorname"
+                                       placeholder="Vorname" required/>
+                                <input class="stroke pair" id="nachname" type="text" name="nachname"
+                                       placeholder="Nachname" required/>
+                                <input class="stroke wide" id="email" type="email" name="email"
+                                       placeholder="Ihre E-Mail" required/>
+                                <input class="stroke wide" id="telefonnummer" type="text" name="telefonnummer"
+                                       placeholder="Ihre Tel-Nr." required/>
+                                <select class="stroke  wide" id="anfrage" name="anfrage" required="">
+                                    <option value="Anfrage auswählen">Bitte Anfrage auswählen</option>
+                                    <option value="Probetraining">Probetraining</option>
+                                    <option value="Personal Training">Personal Training</option>
+                                    <option value="Firmen Fitness">Firmen Fitness</option>
+                                    <option value="Andere">Andere</option>
+                                </select>
+                                <button type="submit" class="button wide fit-red margin-top-1">Jetzt loslegen
+                                </button>
+                                <p class="micro bold center cropBottom margin-top-1">schnell - kostenlos -
+                                    unverbindlich</p>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="background">
+        <iframe class="iframeBackground" frameBorder="0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4113.450562004452!2d10.094583202959807!3d49.12258343537918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xefc5579277ef14f6!2sFitness+Studio+Inform!5e1!3m2!1sde!2sbg!4v1518602861592"></iframe>
+    </div>
+</section>
 
 <nav class="panel bottom">
     <div class="sections">

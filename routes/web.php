@@ -17,7 +17,7 @@ Route::get('/', function () {
 Route::get('/fitness-studio-crailsheim', ['as' => 'studio', 'uses' => 'HomeController@studio']);
 Route::get('/fitness-trainer-crailsheim', ['as' => 'trainer', 'uses' => 'HomeController@trainer']);
 Route::get('/fitness-kursplan-crailsheim', ['as' => 'kursplan', 'uses' => 'HomeController@kursplan']);
-Route::get('/fitness-preise-crailsheim', ['as' => 'preise', 'uses' => 'HomeController@preise']);
+Route::get('/fitness-probetraining-crailsheim', ['as' => 'probetraining', 'uses' => 'HomeController@preise']);
 
 Route::get('/fitness-rundgang-crailsheim', ['as' => 'rundgang', 'uses' => 'HomeController@rundgang']);
 Route::get('/inform-body-shop', ['as' => 'shop', 'uses' => 'HomeController@shop']);
