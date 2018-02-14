@@ -224,6 +224,21 @@
     </div>
 </section>
 
+
+<div class="dialogContainer bottom">
+    <div class="dialog" data-dialog-id="dialog" data-set-cookie="30">
+        <div class="close" data-dialog-action="close"></div>
+        <div class="dialogContent">
+            <div class="text center">
+                <p class="small uppercase montserrat bold">7 Tage Probetraining und Rückenratgeber als Ebook sichern!</p>
+                <a href="http://inform-crailsheim.mein-probetraining.de" class="button wide fit-red crop" data-dialog-action="close">Jetzt testen!</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <nav class="panel bottom">
     <div class="sections">
         <div class="center"><span class="nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink"

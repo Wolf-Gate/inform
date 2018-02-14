@@ -20,6 +20,10 @@
 .montserrat{
     font-family: 'Montserrat', sans-serif !important;
 }
+.page-loaded .dialog[data-dialog-id="dialog"] {
+    -webkit-transition-delay:1s;
+    transition-delay: 1s;
+}
 .slideshow .background {
     opacity:0;
     visibility:hidden;
