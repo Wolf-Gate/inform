@@ -150,7 +150,7 @@
         </div>
         <div class="background" style="background-image:url({{asset('assets/assets/img/image3.png')}})"></div>
     </section>
-    <section class="slide fade kenBurns" data-name="eGym" data-title="eGym">
+    <section class="slide fade video autoStop" data-name="eGym" data-title="eGym">
         <div class="content">
             <div class="container">
                 <div class="wrap article">
@@ -162,36 +162,17 @@
                                 mehr Spaß. Mit dem intelligenten Kraftzirkel von eGym! Ab jetzt auch bei uns.</p>
                         </div>
                     </div>
-                    <div class="fix-8-12 margin-top-5">
-                        <div class="videoThumbnail videoThumbnail-82 noShadow popupTrigger ae-6" data-popup-id="82">
-                            <img src="{{asset('assets/assets/img/img-video-thumb.jpg')}}" class="wide" alt="Thumbnail"/>
-                        </div>
-                    </div>
                 </div>
 
             </div>
         </div>
-        <div class="background" style="background-image:url({{asset('assets/assets/img/img-video.jpg')}})"></div>
+        <div class="background">
+            <video loop poster="{{ asset('assets/assets/img/img-video.jpg') }}">
+                <source src="{{ asset('assets/assets/img/video.mp4') }}" type="video/mp4"/>
+                <source src="{{ asset('assets/assets/img/video.webm') }}" type="video/webm"/>
+            </video>
+        </div>
     </section>
-    <div class="popup autoplay" data-popup-id="82">
-        <div class="close">
-            <svg>
-                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
-            </svg>
-        </div>
-        <div class="content">
-            <div class="container">
-                <div class="wrap">
-                    <div class="fix-10-12">
-                        <div class="embedVideo popupContent">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/U_9HZw5PC_M"
-                                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     @slot('bottomBlock')
         <script>
             $(function () {
@@ -200,6 +181,40 @@
                         $('.slideshow.selected .background.shown').removeClass('shown').nextOrFirst('.background').addClass('shown');
                     }
                 }, 4000); // <-- set your interval here
+            });
+        </script>
+        <script>
+            /* button to mute a background sound */
+            $(function(){
+                //mute button
+                $('.muteToggle').click(function(){
+                    var $this = $(this),
+                        $video = $this.parents('.slide').find('video');
+
+                    if ($video.prop('muted') === true){
+                        $video.prop('muted', false);
+                        $this.text('Mute');
+                    } else {
+                        $video.prop('muted', true);
+                        $this.text('Unmute');
+                    }
+                });
+            });
+
+            /* pause video on slide change */
+            $(window).on('slideChange',function(event, number, element){
+                var $videoElement = $('.slide.video.autoStop');
+
+                if ($videoElement.length > 0) {
+                    $videoElement.each(function(){
+                        var $element = $(this);
+                        if ($element.index('section.slide') + 1 == number) {
+                            $element.find('video')[0].play();
+                        } else {
+                            $element.find('video')[0].pause();
+                        }
+                    });
+                }
             });
         </script>
     @endslot
