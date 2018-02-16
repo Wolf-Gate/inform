@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="de-DE">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114280826-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114280826-1');
+    </script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="csrf_token" content="{{ csrf_token() }}">
     <meta charset="utf-8">
