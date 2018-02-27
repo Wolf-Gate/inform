@@ -340,7 +340,7 @@
 
 <nav class="panel bottom">
     <div class="sections">
-        <div class="left"><a target="_blank" href="https://wolf-gate.com"><h6 class="small uppercase">Wolf-Gate</h6><h6 class="small semiBold uppercase">Web-Design Crailsheim</h6></a></div>
+        <div class="left"><a target="_blank" href="https://wolf-gate.com"><h6 class="small semiBold uppercase">Web-Entwicklung</h6><h6 class="small uppercase">Wolf-Gate Crailsheim</h6></a></div>
         <div class="center"><span class="nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink"
                                                               xlink:href="#arrow-down"></use></svg></span></div>
         <div class="right"></div>
