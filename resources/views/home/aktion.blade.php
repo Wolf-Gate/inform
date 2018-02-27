@@ -32,6 +32,26 @@
                     <div class="fix-12-12">
                         <ul class="grid grid-69 equal equalMobile popupTrigger controller" data-popup-id="69" data-slider-id="69" >
                             <li class="col-6-12 col-tablet-1-2 col-phablet-1-1">
+                                <a href="http://www.fitwell-gerabronn.de" target="_blank" class="box-69 ae-7 equalElement" style="background-image:url({{ asset('assets/assets/img/k-3.jpg') }});">
+                                    <div class="table cell-69 equalElement">
+                                        <div class="cell">
+                                            <div class="category-69">InForm</div>
+                                            <div class="title-69">Klicken für mehr Informationen</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-6-12 col-tablet-1-2 col-phablet-1-1">
+                                <a href="https://wolf-gate.com" target="_blank" class="box-69 ae-7 equalElement" style="background-image:url({{ asset('assets/assets/img/k-4.jpg') }});">
+                                    <div class="table cell-69 equalElement">
+                                        <div class="cell">
+                                            <div class="category-69">InForm</div>
+                                            <div class="title-69">Klicken für mehr Informationen</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-6-12 col-tablet-1-2 col-phablet-1-1">
                                 <a href="#" class="box-69 ae-6 equalElement" style="background-image:url({{ asset('assets/assets/img/k-1.jpg') }});">
                                     <div class="table cell-69 equalElement">
                                         <div class="cell">
@@ -42,7 +62,7 @@
                                 </a>
                             </li>
                             <li class="col-6-12 col-tablet-1-2 col-phablet-1-1">
-                                <a href="#" class="box-69 ae-7 equalElement" style="background-image:url({{ asset('assets/assets/img/k-2.jpg') }});">
+                                <a href="" class="box-69 ae-7 equalElement" style="background-image:url({{ asset('assets/assets/img/k-2.jpg') }});">
                                     <div class="table cell-69 equalElement">
                                         <div class="cell">
                                             <div class="category-69">InForm</div>

@@ -14,9 +14,8 @@
         <div class="content">
             <div class="container">
                 <div class="wrap">
-                        <h1 class="ae-1 bold montserrat">Unser Kursplan ab Januar 2018</h1>
-                    <div class="fix-7-12 margin-bottom-2">
-                        <div class="pad shadow left ae-3 pad-59">
+                    <div class="fix-8-12 margin-bottom-2">
+                        <div class="pad-2 shadow ae-1">
                             <div class=" ae-3">
                                 <img  class="wide rounded" src="{{ asset('assets/assets/img/kursplan.jpg') }}">
                             </div>

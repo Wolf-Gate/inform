@@ -313,7 +313,7 @@
                                         </table>
 
                                         <div style="display: none" id="element_05836954470230749"></div>
-                                        </div>
+                                    </div>
 
                                     <div style="display: none" id="element_09030725472531184"></div>
                                     </p></div>
@@ -397,7 +397,13 @@
                                                                         Formular
                                                                         getätigt:<br><strong>Name: {{$vorname}} {{$nachname}}
                                                                             <br>Telefonnummer: {{$telefonnummer}}<br>Email: {{$email}}
-                                                                            <br>Anfrage: {{$anfrage}}</strong></p>
+                                                                            <br>Anfrage: {{$anfrage}}<br>
+                                                                            @if($trainer)
+                                                                                Trainer: {{$trainer}}@endif
+                                                                            <br>@if($mitglied)
+                                                                                Mitglied: {{$mitglied}}@endif
+                                                                            <br>@if($datum1)Datum: {{$datum1}} {{$datum2}} {{$datum3}}@endif
+                                                                            <br></strong></p>
                                                                     </td>
                                                                 </tr>
                                                             </table>

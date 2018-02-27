@@ -34,6 +34,11 @@ class KontaktSendToPartner extends Mailable
             'vorname' => $this->request->vorname,
             'nachname' => $this->request->nachname,
             'email' => $this->request->email,
+            'trainer' => $this->request->trainer,
+            'mitglied' => $this->request->mitglied,
+            'datum1' => $this->request->datum1,
+            'datum2' => $this->request->datum2,
+            'datum3' => $this->request->datum3,
             'telefonnummer' => $this->request->telefonnummer,
             'anfrage' => $this->request->anfrage,
         ]);

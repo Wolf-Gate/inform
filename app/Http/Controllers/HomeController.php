@@ -9,9 +9,17 @@ use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
+    public function index()
+    {
+        return view('welcome');
+    }
     public function studio()
     {
         return view('home.studio');
+    }
+    public function wellness()
+    {
+        return view('home.wellness');
     }
     public function trainer()
     {

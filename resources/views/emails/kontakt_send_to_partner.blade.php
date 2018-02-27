@@ -396,7 +396,7 @@
                                                                         Sie erhalten innerhalb von 24 Stunden eine
                                                                         Nachricht.
                                                                         <br>Folgende Angaben haben Sie in unserem
-                                                                        Formular getätigt:<br><strong>Name: {{$vorname}} {{$nachname}}<br>Telefonnummer: {{$telefonnummer}}<br>Email: {{$email}}<br>Anfrage: {{$anfrage}}</strong></p>
+                                                                        Formular getätigt:<br><strong>Name: {{$vorname}} {{$nachname}}<br>Telefonnummer: {{$telefonnummer}}<br>Email: {{$email}}<br>Anfrage: {{$anfrage}} <br>@if($trainer)Trainer: {{$trainer}}@endif<br>@if($mitglied)Mitglied: {{$mitglied}}@endif<br>@if($datum1)Datum: {{$datum1}} {{$datum2}} {{$datum3}}@endif<br></strong></p>
                                                                         <p>Bis dorthin sind wir für Sie gerne
                                                                             telefonisch
                                                                             unter&nbsp;<strong>07951 4713830</strong>
