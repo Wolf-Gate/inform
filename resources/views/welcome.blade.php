@@ -169,7 +169,6 @@
         <div class="background">
             <video loop poster="{{ asset('assets/assets/img/img-video.jpg') }}">
                 <source src="{{ asset('assets/assets/img/video.mp4') }}" type="video/mp4"/>
-                <source src="{{ asset('assets/assets/img/video.webm') }}" type="video/webm"/>
             </video>
         </div>
     </section>
@@ -184,23 +183,6 @@
             });
         </script>
         <script>
-            /* button to mute a background sound */
-            $(function(){
-                //mute button
-                $('.muteToggle').click(function(){
-                    var $this = $(this),
-                        $video = $this.parents('.slide').find('video');
-
-                    if ($video.prop('muted') === true){
-                        $video.prop('muted', false);
-                        $this.text('Mute');
-                    } else {
-                        $video.prop('muted', true);
-                        $this.text('Unmute');
-                    }
-                });
-            });
-
             /* pause video on slide change */
             $(window).on('slideChange',function(event, number, element){
                 var $videoElement = $('.slide.video.autoStop');

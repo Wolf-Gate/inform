@@ -177,7 +177,7 @@
 <!-- Panel Top #01 -->
 <nav class="panel top forceMobileView">
     <div class="sections desktop">
-        <div class="left"><a href="{{ route('home') }}" title="InForm Crailsheim"><img style="width:130px;"
+        <div class="left"><a href="{{ route('home') }}" title="Fitness Studio"><img style="width:120px;"
                         src="{{ asset('assets/assets/svg/logo.png') }}"></a>
         </div>
         <div class="center">
@@ -336,8 +336,6 @@
         </div>
     </div>
 </div>
-
-
 <nav class="panel bottom">
     <div class="sections">
         <div class="left"><a target="_blank" href="https://wolf-gate.com"><h6 class="small semiBold uppercase">Web-Entwicklung</h6><h6 class="small uppercase">Wolf-Gate Crailsheim</h6></a></div>
