@@ -169,6 +169,7 @@
         <div class="background">
             <video loop poster="{{ asset('assets/assets/img/img-video.jpg') }}">
                 <source src="{{ asset('assets/assets/img/video.mp4') }}" type="video/mp4"/>
+                <source src="{{ asset('assets/assets/img/video.webm') }}" type="video/webm"/>
             </video>
         </div>
     </section>
