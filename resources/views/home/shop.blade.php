@@ -17,7 +17,7 @@
 
                     <h1 class="bold big montserrat ae-1">Super Angebote & professionelle Beratung!</h1>
                     <p class="hero ae-2 bold">Wir führen ausschliesslich hochwertige Produkte der Hersteller Body
-                        Attack, Rich Piana's 5% Nutrition, Frey Nutrition und Mr. Big.
+                        Attack, Scitec und Mr. Big.
                         Unser Hauptanliegen ist, dass unsere Mitglieder auch in Sachen Nahrungsergänzung (die 80 Prozent
                         des Trainingserfolges ausmacht), optimal versorgt sind. Sei es Muskelaufbau oder Fettreduktion.
                         Der Body Shop ist natürlich für jedermann zugänglich, dazu bedarf es keiner Mitgliedschaft in
