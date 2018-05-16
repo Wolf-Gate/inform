@@ -21,7 +21,7 @@
                         Unser Hauptanliegen ist, dass unsere Mitglieder auch in Sachen Nahrungsergänzung (die 80 Prozent
                         des Trainingserfolges ausmacht), optimal versorgt sind. Sei es Muskelaufbau oder Fettreduktion.
                         Der Body Shop ist natürlich für jedermann zugänglich, dazu bedarf es keiner Mitgliedschaft in
-                        unserem Studio. Verkauf auch über unsere Theke. Frank freut sich schon auf dich und beratät dich gerne!</p>
+                        unserem Studio. Verkauf auch über unsere Theke. Frank freut sich schon auf dich und berät dich gerne!</p>
                     <a href="http://www.inform-supps.de" target="_blank" class="button margin-top-2 rounded big white ae-4">Zum Online Shop</a>
                 </div>
             </div>
