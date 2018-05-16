@@ -176,7 +176,7 @@
                         <ul class="flex reverse">
                             <li class="col-6-12 left cell-32">
                                 <h1 class="ae-2 montserrat bold">REHA-Sport:</h1>
-                                <div class="ae-3 bold"><p>Der REHA Sport Kurs bietet Ihnen die Möglichkeit, gemeinsam mit anderen durch Sport und Gymnastik Ihre Bewegungsfähigkeit wieder herzustellen. Ziel ist es die Ausdauer, Koordination und Flexibilität zu verbessern und den Verlauf zur Gesundung positiv zu beeinflussen. Das Angebot kommz grundsätzlich für alle Menschen mit drohender Einschränkung, sowie für chronisch Kranke in Frage. Die Qualität in den REHA Sport Gruppen wird durch ärztliche Betreuung und durch qualifizierte Übungsleiter/innen sichergestellt. Die Art und Intensität des Rehabilitationssport wird anhand einer ärztlichen Verordnung festgelegt</p></div>
+                                <div class="ae-3 bold"><p>Der REHA Sport Kurs bietet Ihnen die Möglichkeit, gemeinsam mit anderen durch Sport und Gymnastik Ihre Bewegungsfähigkeit wieder herzustellen. Ziel ist es die Ausdauer, Koordination und Flexibilität zu verbessern und den Verlauf zur Gesundung positiv zu beeinflussen. Das Angebot kommt grundsätzlich für alle Menschen mit drohender Einschränkung, sowie für chronisch Kranke in Frage. Die Qualität in den REHA Sport Gruppen wird durch ärztliche Betreuung und durch qualifizierte Übungsleiter/innen sichergestellt. Die Art und Intensität des Rehabilitationssport wird anhand einer ärztlichen Verordnung festgelegt</p></div>
                                 <a href="{{ route('probetraining') }}" class="button rounded big white ae-5">Probetraining</a>
 
                             </li>
