@@ -28,6 +28,7 @@
     <link href="{{ asset('assets/css/slides.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
     {{ $headerBlock or '' }}
+    <script src='https://www.google.com/recaptcha/api.js?render=6Le_K38UAAAAALW77gqG_xNjfo9guca2XfFZxTcy'></script>
 </head>
 <body class="slides zen simplifiedMobile animated">
 <div id="fb-root"></div>
@@ -321,8 +322,6 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4113.450562004452!2d10.094583202959807!3d49.12258343537918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xefc5579277ef14f6!2sFitness+Studio+Inform!5e1!3m2!1sde!2sbg!4v1518602861592"></iframe>
     </div>
 </section>
-
-
 <div class="dialogContainer bottom">
     <div class="dialog" data-dialog-id="dialog" data-set-cookie="30">
         <div class="close" data-dialog-action="close"></div>
@@ -344,6 +343,14 @@
         <div class="right"></div>
     </div>
 </nav>
+<script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6Le_K38UAAAAALW77gqG_xNjfo9guca2XfFZxTcy', {action: 'action_name'})
+            .then(function(token) {
+// Verify the token on the server.
+            });
+    });
+</script>
 <script src="{{ asset('assets/js/jquery.js') }}" type="text/javascript" name="plugins"></script>
 <script src="{{ asset('assets/js/slides.js') }}" type="text/javascript" name="plugins"></script>
 <script src="{{ asset('assets/js/plugins.js') }}" type="text/javascript" name="plugins"></script>

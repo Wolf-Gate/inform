@@ -34,6 +34,7 @@
     opacity:1;
     visibility:visible;
 }
+#g-recaptcha-response.g-recaptcha-response { display: none !important; }
 .slide .background.customBackground {
      background-size: initial;
      background-repeat: no-repeat;
