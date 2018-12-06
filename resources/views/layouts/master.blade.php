@@ -27,6 +27,7 @@
     <meta name="og:site_name" content="InForm Crailsheim - Dein größtes Fitnessstudio in Crailsheim und Umgebung.">
     <link href="{{ asset('assets/css/slides.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     {{ $headerBlock or '' }}
 </head>
 <body class="slides zen simplifiedMobile animated">
@@ -343,7 +344,6 @@
         <div class="right"></div>
     </div>
 </nav>
-<script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="{{ asset('assets/js/jquery.js') }}" type="text/javascript" name="plugins"></script>
 <script src="{{ asset('assets/js/slides.js') }}" type="text/javascript" name="plugins"></script>
 <script src="{{ asset('assets/js/plugins.js') }}" type="text/javascript" name="plugins"></script>
