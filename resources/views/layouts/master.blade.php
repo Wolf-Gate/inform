@@ -28,7 +28,6 @@
     <link href="{{ asset('assets/css/slides.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
     {{ $headerBlock or '' }}
-    <script src='https://www.google.com/recaptcha/api.js?render=6Le_K38UAAAAALW77gqG_xNjfo9guca2XfFZxTcy'></script>
 </head>
 <body class="slides zen simplifiedMobile animated">
 <div id="fb-root"></div>
@@ -305,6 +304,7 @@
                                     <option value="Firmen Fitness">Firmen Fitness</option>
                                     <option value="Andere">Andere</option>
                                 </select>
+                                <div class="g-recaptcha margin-top-2" data-sitekey="{{env('GOOGLE_RECAPTCHA_KEY')}}"></div>
                                 <button type="submit" class="button wide fit-red margin-top-1">Jetzt loslegen
                                 </button>
                                 <p class="micro bold center cropBottom margin-top-1">schnell - kostenlos -
@@ -343,14 +343,7 @@
         <div class="right"></div>
     </div>
 </nav>
-<script>
-    grecaptcha.ready(function() {
-        grecaptcha.execute('6Le_K38UAAAAALW77gqG_xNjfo9guca2XfFZxTcy', {action: 'action_name'})
-            .then(function(token) {
-// Verify the token on the server.
-            });
-    });
-</script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <script src="{{ asset('assets/js/jquery.js') }}" type="text/javascript" name="plugins"></script>
 <script src="{{ asset('assets/js/slides.js') }}" type="text/javascript" name="plugins"></script>
 <script src="{{ asset('assets/js/plugins.js') }}" type="text/javascript" name="plugins"></script>

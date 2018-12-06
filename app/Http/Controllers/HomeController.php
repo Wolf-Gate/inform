@@ -59,6 +59,7 @@ class HomeController extends Controller
             'vorname' => 'required',
             'nachname' => 'required',
             'email' => 'required|email',
+            'g-recaptcha-response'=>'required|recaptcha'
         ];
 
         $this->validate($request, $rules);
