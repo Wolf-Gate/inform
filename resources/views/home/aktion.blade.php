@@ -60,7 +60,7 @@
                                 </a>
                             </li>
                             <li class="col-3-12 col-tablet-1-2 col-phablet-1-1">
-                                <a href="#" class="box-69 ae-6 equalElement" style="background-image:url({{ asset('assets/assets/img/k-5.jpg') }});">
+                                <a href="https://finanzprofis-haag.de" class="box-69 ae-6 equalElement" style="background-image:url({{ asset('assets/assets/img/k-5.jpg') }});">
                                     <div class="table cell-69 equalElement">
                                         <div class="cell">
                                             <div class="title-69">Finanzprofis-Haag & Inform</div>
