@@ -348,8 +348,8 @@
 <script src="{{ asset('assets/js/slides.js') }}" type="text/javascript" name="plugins"></script>
 <script src="{{ asset('assets/js/plugins.js') }}" type="text/javascript" name="plugins"></script>
 <script src="{{ asset('assets/js/custom.js') }}" type="text/javascript" name="plugins"></script>
-<script async="async" src="https://static.mobilemonkey.com/js/202088929814490.js"></script>
 {{ $bottomBlock or '' }}
+<script async="async" src="https://static.mobilemonkey.com/js/202088929814490.js"></script>
 </body>
 </html>
 
