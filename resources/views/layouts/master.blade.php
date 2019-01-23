@@ -30,7 +30,7 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
     {{ $headerBlock or '' }}
 </head>
-<body class="slides zen simplifiedMobile animated">
+<body class="slides zen noPreload simplifiedMobile animated">
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
